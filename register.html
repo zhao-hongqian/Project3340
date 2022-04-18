@@ -1,0 +1,38 @@
+<html>
+
+<head>
+
+<style>
+.photo{
+    float:left;
+    width:50%;
+}
+.word{
+    float:right;
+    width:50%;
+}
+</style>
+    <title>menu</title>
+</head>
+
+<body>
+
+<h1>register Page</h1>
+
+<form method="POST" action="register.php"> <!--  will switch to the register.php file     -->
+<h2>register</h2>
+  <div>
+            <label for="name">user name: </label>
+            <input type="text" class="word" class="form-control" name="name">
+        </div>
+  <div>
+            <label for="pwd">Password: </label>
+            <input type="text" class="word" class="form-control" name="pwd">
+        </div>
+    <div>
+		<p align= "center" ><button type="submit" class="btn btn-primary" name="signup">sign up</button>  <!-- have two button and let the user chose-->  
+	</div>
+  
+  </form>
+</body>
+</html>
